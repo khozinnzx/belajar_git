@@ -32,15 +32,9 @@ class HomePage extends StatelessWidget {
       body: Center(
         child: ElevatedButton(
             onPressed: () {
-              showDialog(
-                context: context,
-                builder: (context) => AlertDialog(
-                  shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(20),
-                  ),
-                  title: Text('ini Dialog'),
-                  content: Text('ini adalah isi dari content alert Dialog'),
-                ),
+              Get.defaultDialog(
+                title: 'INI DIALOG',
+                middleText: 'ini adalah contoh sebuah dialog',
               );
             },
             child: Text('Click')),
