@@ -33,8 +33,8 @@ class HomePage extends StatelessWidget {
         child: ElevatedButton(
             onPressed: () {
               Get.defaultDialog(
-                  title: 'INI DIALOG untuk featureB',
-                  middleText: 'ini adalah contoh sebuah dialog',
+                  title: 'INI DIALOG untuk featureA',
+                  middleText: 'ini adalah contoh sebuah dialog A',
                   actions: [
                     ElevatedButton(onPressed: () {}, child: Text('Cancel')),
                     ElevatedButton(onPressed: () {}, child: Text('OK')),
