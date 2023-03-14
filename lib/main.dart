@@ -37,7 +37,11 @@ class HomePage extends StatelessWidget {
                   middleText: 'ini adalah contoh sebuah dialog A',
                   actions: [
                     ElevatedButton(onPressed: () {}, child: Text('Cancel')),
-                    ElevatedButton(onPressed: () {}, child: Text('OK')),
+                    ElevatedButton(
+                        onPressed: () {
+                          print('menambahkan featureAsub');
+                        },
+                        child: Text('OK')),
                   ]);
             },
             child: Text('Click')),
